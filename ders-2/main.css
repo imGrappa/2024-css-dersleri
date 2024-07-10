@@ -1,0 +1,51 @@
+/* .text {
+    color:red;
+}
+
+#text-2 {
+    color:blue;
+}
+
+p.box {
+    color:aqua;
+} */
+
+/* p#text-2 {
+    color:red;
+} */
+
+/* h3 {
+    color:red;
+}
+
+h3 {
+    color:blue;
+} */
+
+/* h3, p, div {
+    color:red;
+} */
+
+/* * {
+    color:red;
+} */
+
+/* img[alt] {
+    width:50px;
+} */
+
+/* img[alt="Figma görseli"] {
+    width: 50px;
+} */
+
+/* img[alt~="Figma"] {
+    width:10px;
+} */
+
+/* img[alt^="Figma"] {
+    width:50px;
+} */
+
+/* img[alt$="Figma"] {
+    width: 50px;
+} */
