@@ -1,0 +1,19 @@
+p.text1 {
+    color:chocolate;
+}
+
+p.text2 {
+    color:rgb(18, 1, 116);
+}
+
+p.text3 {
+    color:rgba(18,1,116,0.2);
+}
+
+p.text4 {
+    color:#14fffb;
+}
+
+p.text5 {
+    color:hsl(20, 98%, 70%)
+}

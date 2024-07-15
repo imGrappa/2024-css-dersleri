@@ -1,0 +1,37 @@
+.text {
+    /* border-width: 5px;
+    border-color:red;
+    border-style:solid; */
+    /* border:5px solid red; */
+    /* border-radius: 50px; */
+    /* border-left: 5px solid red;
+    border-right: 5px solid red;
+    border-bottom: 5px solid red;
+    border-top: 5px solid red; */
+    /* border:5px solid; */
+    /* border-top-color: red;
+    border-bottom-color:blue;
+    border-left-color:aqua;
+    border-right-color:bisque;
+    border-top-left-radius: 20px;*/
+    border-bottom-right-radius: 20px;
+}
+
+.text {
+    border:5px solid red; 
+    /* padding:35px; */
+    /* padding-left: 20px;
+    padding-right:10px;
+    padding-bottom: 35px;
+    padding-top:50px; */
+    /* padding:20px 50px; */
+    padding:20px;
+}
+
+.text {
+    /* margin:20px; */
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    /* margin-left:50%; */
+}

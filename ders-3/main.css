@@ -1,0 +1,19 @@
+/* div > p {
+    color:red;
+}
+*/
+/* div p {
+    color:blue;
+}
+
+.box > p {
+    color:red;
+} */
+
+/* p ~ div {
+    color:red;
+} */
+/* 
+p + div {
+    color:red;
+} */
