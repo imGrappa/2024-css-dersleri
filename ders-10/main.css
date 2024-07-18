@@ -1,0 +1,71 @@
+/* Text Alignment (Metin Hizalama)
+	-text-align
+	-text-align-last
+	-vertical-align
+*/
+
+/* Text Decoration (Metin Dekorasyonu)
+	-text-decoration
+*/
+
+/* Text Transformation (Metin Dönüşümü)
+	-text-transform
+*/
+
+/* Text Spacing (Metin Aralığı)
+	-text-indent
+	-letter-spacing
+	-line-height
+	-word-spacing
+	-white-space
+*/
+
+/* Text Shadow (Metin Gölgesi)
+	-text-shadow
+*/
+
+div {
+    /* text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: end; 
+    text-align: justify; */
+    /* text-align-last: center; */
+    text-align: start;
+}
+
+/* table tr td {
+    height:55px;
+    vertical-align: top;
+    vertical-align: bottom;
+    vertical-align: middle;
+} */
+
+/* div {
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-decoration: underline overline line-through 3px red;
+} */
+
+
+/* h1 {
+    text-transform: uppercase;
+    text-transform: lowercase;
+}
+
+div {
+    text-transform: capitalize;
+} */
+
+div {
+    /* text-indent: 500px; */
+    /* letter-spacing: 10px; */
+    /* word-spacing: 20px; */
+    /* line-height:20px; */
+    /* width: 250px;
+    border:1px solid red; */
+    /* white-space: nowrap; */
+    text-shadow: 15px 25px 2px rgba(255,0,0,0.2);
+}

@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    width: 250px;
+    height: 250px;
+    background:red;
+    padding:20px;
+    border:10px solid blue;
+    /* box-sizing: content-box; */
+}
+
+/*
+Width = 250px + (20 * 2) + (10 * 2) = 310px
+*/
+/*
+Width = 250px = 250px
+height = 250px = 250px
+*/

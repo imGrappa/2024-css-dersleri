@@ -1,0 +1,14 @@
+.container {
+    width:500px;
+    height:500px;
+}
+
+.box {
+    background-color:red;
+    /* width:50vw;
+    height:50vh; */
+    height: 100%;
+    max-width:70%;
+    width: 700px;
+    max-height: 70%;
+}
