@@ -1,0 +1,44 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* static - relative - absolute - fixed - sticky */
+
+.box {
+    width: 250px;
+    height:250px;
+}
+.red {
+    background:red;
+    margin-bottom: 20px;
+}
+.blue {
+    background:blue;
+    margin-bottom: 20px;
+    position: sticky;
+    top:20px;
+}
+.black {
+    background:black;
+    margin-bottom: 20px;
+}
+.purple {
+    background:purple;
+}
+
+.relative {
+    /* position: relative; */
+    width: 100%;
+    height: 500px;
+}
+.relative .box {
+    /* position: fixed; */
+    right:0;
+    top:0;
+}
+
+.kry {
+    height: 1000px;
+}
