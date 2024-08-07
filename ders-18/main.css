@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body {
+    padding:20px;
+}
+.container .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size:20px;
+    width: 100px;
+    height: 100px;
+    background:blue;
+    margin-bottom: 20px;
+    /* transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay]; */
+    transition: all 1s cubic-bezier(0,1.51,.61,1.51);
+}
+
+.container:hover .box {
+    width:400px;
+}
+
+.container .box.linear {
+    transition-delay: 0s;
+}
+
+.container .box.ease {
+    transition-delay: .2s;
+}
+
+.container .box.ease-in {
+    transition-delay: .4s;
+}
+
+.container .box.ease-out {
+    transition-delay: .6s;
+}
+
+.container .box.ease-in-out {
+    transition-delay: .8s;
+}

@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body {
+    padding:20px;
+}
+
+.container .box {
+    width: 200px;
+    height: 200px;
+    background:blue;
+    /* transform: translateX(50px);  */
+    transition: all 1s ease-in-out;
+    -webkit-box-shadow: 156px 25px 93px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 156px 25px 93px -10px rgba(0,0,0,0.75);
+    box-shadow: 156px 25px 93px -10px rgba(255, 7, 7, 0.75);
+} 
+
+.container .box:hover {
+    /* transform: rotateX(-50deg); */
+    /* transform: scaleY(1.5); */
+    /* transform: skew(50deg, 25deg);  */
+}
+
+.container img {
+    /* box-shadow: 25px 25px 100px 0px rgba(0,0,0,0.75); */
+    filter: drop-shadow(25px 25px 5px rgba(0,0,0,0.75));
+}

@@ -1,0 +1,49 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 500px;
+    height: 500px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* CSS Pseudo Class (Sözde Sınıf Seçicileri) 
+:active
+:viseted
+:hover
+:focus
+:checked
+:enabled
+:disabled
+:optional
+:required
+:read-only
+:not(secici)
+:first-child
+:last-child
+:nth-child(n)
+:nth-last-child(n)
+:lang(en) 
+*/
+
+
+/* CSS Pseudo Elements (Sözde Öğe Seçicileri) 
+::after
+::before
+::first-line
+::first-letter
+::placaholder
+::selection	
+::marker
+*/
+
+ul li::marker {
+    color:red;
+    font-size:30px;
+}
