@@ -23,3 +23,16 @@ ul {
         }
     }
 }
+
+.header {
+    .container {
+        .navMenu {
+            .navLogo {
+                margin:0 auto;
+                .link {
+                    color:red;
+                }
+            }
+        }
+    }
+}
