@@ -1,0 +1,46 @@
+body {
+    color:red;
+}
+
+.title {
+    font-size:6rem;
+}
+
+.subtitle {
+    font-size:3rem;
+}
+@media screen and (min-width:600px) {
+    .title {
+        font-size:8rem;
+        color:aqua;
+    }
+}
+@media screen and (max-width:500px) {
+    .title {
+        font-size:4rem;
+        color:blue;
+    }
+}
+
+@media (max-width:500px) {
+    .title {
+        color:purple;
+    }
+}
+.box {
+    width:250px;
+    height: 250px;
+    background:red;
+}
+
+@media (max-width:500px) {
+    .box {
+        background:blue;
+    }
+}
+@media (min-width:1200px) {
+    /* ... */
+}
+@media (max-width:1199px) {
+    /* ... */
+}
